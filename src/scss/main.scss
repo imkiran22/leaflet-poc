@@ -1,0 +1,141 @@
+@import "colors.scss";
+@import "workaround.scss";
+@import "header.scss";
+@import "leaflet.scss";
+@import "../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css";
+body, html, #root > #wrapper {
+  background-color: #e6ecf0 !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
+}
+
+.pad-0 {
+  padding: 0;
+  img {
+    position: fixed;
+    z-index: 9999;
+  }
+}
+
+.width-100 {
+  width: 100%;
+}
+.mtop-10 {
+  margin-top: 10px;
+}
+
+section.side-nav {
+  clear: both;
+  padding: 5px;
+  nav {
+    a {
+      display: block;
+      font-size: 13px;
+      font-weight: bold;
+      color: $side-nav-a;
+      padding: 3px 0px 3px 20px;
+      line-height: 50px;
+      text-decoration: none;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    a:hover {
+      background: transparent;
+      transition: 0.3s ease;
+      border-left: 5px solid $twitter-blue;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    a.reset {
+      font-size: 10px;
+      padding: 3px 0px 3px 10px;
+      line-height: 40px;
+    }
+    /* padding: 0px 0px 0 10px; */
+    /* margin-top: 10px; */
+  }
+  width: 25%;
+  overflow-x: hidden;
+  height: 100%;
+  background: $side-nav;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* opacity: 0.7; */
+  transition: 0.5s ease-in;
+}
+
+#wrapper {
+  position: relative;
+  top: 83px;
+}
+
+section.main-view {
+  button#show {
+    display: block;
+    transition: 0.5s ease-in;
+  }
+  button#collapse {
+    display: none;
+    transition: 0.5s ease-in;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border-radius: 0;
+  }
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  transition: 0.5s ease-in;
+  height: 100%;
+  top: 0;
+}
+
+.left0 {
+  left: 7% !important;
+}
+
+.width0 {
+  width: 7% !important;
+} 
+
+i {
+  color: $white-smoke;
+  cursor: pointer;
+}
+
+i.whiteI {
+  position: relative;
+  left: -2px;
+  z-index: 1;
+  color: $twitter-blue !important; 
+}
+
+.width-200 {
+  width: 210px !important;
+}
+
+.active {
+  color: $twitter-blue !important;
+  font-weight: bold;
+}
+
+nav {
+  a {
+    i {
+      color: $side-nav-a !important;
+      margin-right: 3%;
+      font-size: 20px !important;
+      vertical-align: middle;
+    }
+  }
+}
+
+.active {
+  i {
+    color: $twitter-blue !important;
+  }
+}

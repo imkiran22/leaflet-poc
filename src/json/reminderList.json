@@ -1,0 +1,18 @@
+{
+  "list": [
+     {
+        "id": 1,
+        "title": "Birthday Reminder",
+        "desc": "Mom's Birthday",
+        "lastCutoffTime": "Fri Jan 12 2018 22:38:15 GMT+0530 (IST)",
+        "createdTime": "25/12/2017, 12:40:07"
+     },
+     {
+        "id": 2,
+        "title": "Coding Time",
+        "desc": "Kiran its time for coding. Getup",
+        "lastCutoffTime": "Fri Jan 12 2018 22:40:15 GMT+0530 (IST)",
+        "createdTime": "25/12/2017, 12:40:07"
+     }
+  ]
+}

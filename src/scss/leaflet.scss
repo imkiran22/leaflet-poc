@@ -1,0 +1,100 @@
+div.leaflet-map {
+   width: 70%;
+}
+
+.my_polyline_base { 
+  stroke: #91b496;
+  fill: none;
+  stroke-weight: 10;  
+  stroke-width: 6;
+  stroke-opacity:0.8;
+}
+
+.my_polyline_overlay {
+  stroke: #45aaf2;
+  fill: none;
+  stroke-weight: 4;
+  stroke-opacity: 0.7;
+}
+
+.my_polyline_upsteam_base {
+  stroke: #91b496;
+  fill: none;
+  stroke-weight: 10;  
+  stroke-width: 6;
+  stroke-opacity:0.8;
+}
+
+.my_polyline_upsteam_overlay {
+  stroke: #1e824c;
+  fill: none;
+  stroke-weight: 4;
+  stroke-opacity: 0.7;
+}
+
+.my_polyline_downsteam_base {
+  stroke: #91b496;
+  fill: none;
+  stroke-weight: 10;  
+  stroke-width: 6;
+  stroke-opacity:0.8;
+}
+
+.my_polyline_downsteam_overlay {
+  stroke: #f9690e;
+  fill: none;
+  stroke-weight: 4;
+  stroke-opacity: 0.7;
+}
+
+.stats-area {
+  width: 30%;
+}
+
+.stats {
+  font-weight: bold;
+}
+
+#details-section {
+  display: block;
+  width: 100%;
+  .risk {
+      span {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        font-weight: bold;
+      }
+  }
+  .child {
+    padding: 5px;
+    margin: 5px;
+    background: whitesmoke;
+    width: 24%;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    h3 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .box {
+      display: inline-block;
+    width: 40%;
+    min-height: 100px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    b {
+      padding-left: 10px;
+    }
+    span {
+      display: inline-block;
+      text-align: center;
+      font-size: 34px;
+      width: 100%;
+      font-weight: bold;
+    }
+    }
+  }
+}
