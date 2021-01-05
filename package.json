@@ -32,7 +32,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "devDependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "bootstrap": "^3.3.7",
     "copy-webpack-plugin": "^4.2.3",
     "css-loader": "^0.28.7",
